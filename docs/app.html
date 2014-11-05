@@ -140,9 +140,9 @@ code conventions based on <a href="http://javascript.crockford.com/code.html">ht
 
             </div>
             
-            <div class="content"><div class='highlight'><pre>  priv.initialize = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{ 
+            <div class="content"><div class='highlight'><pre>  priv.initialize = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{ 
     <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'initialize'</span>);
-    testPublicMethod();
+    pub.testPublicMethod();
   }</pre></div></div>
             
         </li>
@@ -158,9 +158,9 @@ code conventions based on <a href="http://javascript.crockford.com/code.html">ht
 
             </div>
             
-            <div class="content"><div class='highlight'><pre>  pub.testPublicMethod = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{ 
+            <div class="content"><div class='highlight'><pre>  pub.testPublicMethod = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{ 
     <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'public method called'</span>);
-    testPrivateMethod();
+    priv.testPrivateMethod();
   }</pre></div></div>
             
         </li>
@@ -176,7 +176,7 @@ code conventions based on <a href="http://javascript.crockford.com/code.html">ht
 
             </div>
             
-            <div class="content"><div class='highlight'><pre>  priv.testPrivateMethod = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{ 
+            <div class="content"><div class='highlight'><pre>  priv.testPrivateMethod = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{ 
     <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'private method called'</span>);
   }</pre></div></div>
             

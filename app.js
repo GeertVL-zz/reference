@@ -22,19 +22,19 @@ protime360.testModule = (function(pubFun) {
   var priv = {}; 
  
   // initialize() is the constructor or igniter of your module.
-  priv.initialize = function() { 
+  priv.initialize = function () { 
     console.log('initialize');
     pub.testPublicMethod();
   }
  
   // example of a public method.
-  pub.testPublicMethod = function() { 
+  pub.testPublicMethod = function () { 
     console.log('public method called');
     priv.testPrivateMethod();
   }
  
   // example of a private method
-  priv.testPrivateMethod = function() { 
+  priv.testPrivateMethod = function () { 
     console.log('private method called');
   }
 
