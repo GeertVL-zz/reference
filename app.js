@@ -1,3 +1,8 @@
+// Show protime360 approach of building the client-side.
+// patterns used:
+// - module pattern
+// - revealing module pattern
+
 var protime360 = {};
  
 protime360.public_function = function() {
