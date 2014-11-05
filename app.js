@@ -2,9 +2,12 @@
 // patterns used:
 // - module pattern
 // - revealing module pattern
+// code conventions based on http://javascript.crockford.com/code.html
 
+// declared in application.js
 var protime360 = {};
- 
+
+// only for example intentions. no real code.
 protime360.public_function = function() {
   console.log('public function');
 }
